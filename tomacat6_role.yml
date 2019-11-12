@@ -1,0 +1,8 @@
+---
+- name: use galaxy tomcat6 role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.tomcat6

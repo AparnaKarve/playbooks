@@ -4,3 +4,4 @@
 - src: geerlingguy.apache
 - src: geerlingguy.kubernetes
 - src: geerlingguy.redis
+- src: geerlingguy.tomcat6
