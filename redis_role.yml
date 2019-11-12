@@ -1,0 +1,8 @@
+---
+- name: use galaxy redis role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.redis

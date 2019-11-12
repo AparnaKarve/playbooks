@@ -2,4 +2,5 @@
 #- src: geerlingguy.nginx
 #- src: geerlingguy.git
 #- src: geerlingguy.apache
-- src: geerlingguy.kubernetes
+#- src: geerlingguy.kubernetes
+- src: geerlingguy.redis
