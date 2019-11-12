@@ -6,3 +6,4 @@
 - src: geerlingguy.redis
 - src: geerlingguy.tomcat6
 - src: geerlingguy.svn
+- src: geerlingguy.backup
