@@ -1,5 +1,4 @@
 # from galaxy
 
-- name: nginx
-  src: geerlingguy.nginx
+- src: geerlingguy.nginx
 
