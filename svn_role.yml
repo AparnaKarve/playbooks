@@ -1,0 +1,8 @@
+---
+- name: use galaxy svn role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.svn
