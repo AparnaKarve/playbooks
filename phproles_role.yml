@@ -1,0 +1,8 @@
+---
+- name: use galaxy php_roles role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.php_roles
