@@ -1,8 +1,10 @@
 ---
-- name: use galaxy nginx role
+#- name: use galaxy nginx role
+- name: use galaxy git role
   hosts: all 
   user: ansible
   become: true
 
   roles:
-    - role: geerlingguy.nginx
+    #- role: geerlingguy.nginx
+    - role: geerlingguy.git
