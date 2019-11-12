@@ -1,0 +1,8 @@
+---
+- name: use galaxy mysql role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: robertdebock.mysql
