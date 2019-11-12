@@ -1,0 +1,8 @@
+---
+- name: use galaxy apache role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: geerlingguy.apache
