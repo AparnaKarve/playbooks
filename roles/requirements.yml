@@ -1,4 +1,5 @@
 # from galaxy
 
 #- src: geerlingguy.nginx
-- src: robertdebock.mysql
+- src: geerlingguy.tomcat6
+#- src: robertdebock.mysql
